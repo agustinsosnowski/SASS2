@@ -1,0 +1,11 @@
+$textoResaltado: (
+    walterWhite: $verde,
+    metanfetamina: $azul,
+    jessePinkman: $amarillo,
+);
+@each $palabra , $color in $textoResaltado {
+    .#{$palabra}{
+        color: $color;
+        font-weight: bold;
+    }
+}

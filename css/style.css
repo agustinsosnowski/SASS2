@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.mainIndex img {
+  width: 1000px; }
+
+@media (max-width: 650px) {
+  .mainIndex img {
+    width: 250px; } }
+
+.mainIndex .textoNoticia {
+  font-family: sans-serif;
+  font-size: 1.2rem; }
+
+.walterWhite {
+  color: green;
+  font-weight: bold; }
+
+.metanfetamina {
+  color: blue;
+  font-weight: bold; }
+
+.jessePinkman {
+  color: yellow;
+  font-weight: bold; }

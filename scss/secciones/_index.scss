@@ -1,0 +1,9 @@
+.mainIndex {
+    img{ 
+        width: $ancho;}
+    .textoNoticia{
+        @extend %estilosParrafo;}}
+@media (max-width:650px) {
+    .mainIndex{
+        img{
+            width: $ancho/4;}}}

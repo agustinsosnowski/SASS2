@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import "./variables/tamanios";
+@import "./secciones/index";
+@import "./variables/extend";
+@import "./variables/mixin";
+@import "./variables/colors";
+@import "./variables/maps";
